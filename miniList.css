@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(18, 65, 87);
+}
+
+.searchBoxContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-control{
+    max-width: 500px;
+}
+
+.inputTextList{
+    background-color: rgba(255, 255, 255, 0.61);
+    padding:5px 10px;
+    border-radius: 5px;
+    list-style-position: inside;
+    cursor: pointer;
+    user-select: none;
+    display:block;
+    width: 300px;
+    margin-top: 10px;
+}
+.inputTextList:hover{
+    background-color: rgb(231, 231, 231);
+}
+.inputSearch{
+    
+    margin-top: 20px;
+   
+}
+
+.iconTag{
+    font-size: 20px ;
+    margin-left: 20px;
+    cursor: pointer;
+    user-select: none;
+  
+}
+
+.iconTag:hover{
+   color: rgb(145, 143, 143);
+}
+
+.iconTag:active{
+    color: rgb(155, 7, 7);
+}
+
+.inputTextListContainer{
+    display: inline-block;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}
+
